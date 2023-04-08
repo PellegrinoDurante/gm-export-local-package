@@ -1,0 +1,43 @@
+{
+  "name": "gm-export-local-package",
+  "description": "A command line tool to export local package from Game Maker Studio 2 projects",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PellegrinoDurante/gm-export-local-package.git"
+  },
+  "keywords": [
+    "game maker studio",
+    "game maker studio 2",
+    "gms",
+    "gms2",
+    "game maker",
+    "gm",
+    "local package",
+    "export local package",
+    "export package",
+    "create local package",
+    "cli",
+    "tool"
+  ],
+  "author": "Pellegrino Durante <pellegrino.durante@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PellegrinoDurante/gm-export-local-package/issues"
+  },
+  "homepage": "https://github.com/PellegrinoDurante/gm-export-local-package",
+  "bin": {
+    "gm-export-local-package": "bin/index.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.1",
+    "glob-object": "^1.0.0",
+    "json5": "^2.2.3"
+  }
+}
